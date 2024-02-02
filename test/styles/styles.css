@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-color: cyan;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+* {
+    border: 1px solid blue;
+}

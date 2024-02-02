@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    text-align: center;
+    background-color:rgb(70, 178, 241);
+    transform: scale(.9);
+}
+
+h1:hover {
+    color: black;
+}
+
+h1
+{ 
+    
+    color: white;
+}
+
+#quote1 {
+    font-size: 11px;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white
+    
+}
+
+h2 {
+    font-size: 15px;
+    color: white;
+}
+
+.list {
+    line-height: 10px;
+    margin-left: 25%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+img {
+    width: 23%;
+}
+
+#quote2 {
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#credits{
+    font-size: 12px;
+    margin-left: 175px;
+    margin-right: 175px;
+    line-height: 1px;    
+}
+
+/* * { */
+    /* border: 2px solid red; */
+/* } */
