@@ -47,7 +47,7 @@ h2 {
 }
 
 nav a:hover {
-    background-color: #326886;
+    background-color: transparent;
     color: white;
 }
 
