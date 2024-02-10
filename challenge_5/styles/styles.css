@@ -1,0 +1,27 @@
+#content {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#banner_img {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.bottom_imgs {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    background-color: gray;
+}
+
+.bottom_imgs img {
+    width: 25%; /* Each image takes one-third of the container width */
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding and border don't affect the width */
+    border-radius: 75%;
+    border-width: 100px;
+    border-color: red;
+}

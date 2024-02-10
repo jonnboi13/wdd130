@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Junge&family=Lumanosimo&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: 'Junge', 'Trebuchet MS', sans-serif;
 }
 
 nav a{
     text-align: center;
     color: #85FFDA;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -24,12 +28,22 @@ main section {
     color: #326886;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #87A2C0;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #326886;
+}
+
+h2 {
+    margin: 0;
 }
 
 nav a:hover {
@@ -41,6 +55,10 @@ nav a:hover {
     background-color: #5FC39A;
     color: #326886;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -61,15 +79,35 @@ nav a:hover {
 .msg {
     background-color: #326886;
     color: #85FFDA;
+    padding: 35px;
+}
+
+.msg h2 {
+    font-family: Lumanosimo, 'Trebuchet MS', sans-serif;
+}
+
+.msg p {
+    font-size: .8em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #326886;
     color: #5FC39A;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 .home-title {
+    font-family: Lumanosimo, 'Trebuchet MS', sans-serif;
     color: #326886;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 footer a {
@@ -95,13 +133,34 @@ footer p:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #326886;
+}
+
+.mountains {
+   padding-top: 100px;
+   padding-bottom: 200px;
+}
+
+#hero {
+    padding-bottom: 50px;
+    border: 1px solid black;
+}
 
 
 
