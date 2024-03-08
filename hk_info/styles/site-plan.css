@@ -27,6 +27,11 @@ Fonts are separated by a | */
 }
 
 
+.img {
+  width: 100px;
+  height: auto;
+}
+
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
